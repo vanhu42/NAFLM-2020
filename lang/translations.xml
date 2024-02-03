@@ -239,6 +239,8 @@ For example, english is in <en-GB>, french in <fr-FR>, .......
 <cc>
     <new_team>New team</new_team>
     <!-- <stats> defined in <common> block -->
+    <create_team>Create new team</create_team>
+    <schedule_match>Schedule match</schedule_match>
     <coach_teams>Coach's teams</coach_teams>
     <profile>Profile</profile>        
     <photo>Coach picture</photo>
@@ -2924,6 +2926,8 @@ For example, english is in <en-GB>, french in <fr-FR>, .......
 <cc>
     <new_team>Nouvelle équipe</new_team>
     <!-- <stats> defined in <common> block -->
+    <create_team>Créer une nouvelle équipe</create_team>
+    <schedule_match>Planifier un match</schedule_match>
     <coach_teams>Équipes du Coach</coach_teams>
     <profile>Profil</profile>
     <photo>Image du Coach</photo>

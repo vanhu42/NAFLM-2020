@@ -1008,8 +1008,8 @@ class HTMLOUT
 
 		<li class="topfirst"><a href="#">User Menu</a>
 			<ul>
-				<li class="subfirst"><a href="handler.php?type=teamcreator">Create a New Team</a></li>
-				<li><a href="index.php?section=matches&amp;type=usersched" >Schedule Match</a></li>
+				<li class="subfirst"><a href="handler.php?type=teamcreator"><?php echo $lng->getTrn('cc/create_team');?></a></li>
+				<li><a href="index.php?section=matches&amp;type=usersched" ><?php echo $lng->getTrn('cc/schedule_match');?></a></li>
 				 <li><a rel="nofollow" href="<?php echo urlcompile(T_URL_PROFILE,T_OBJ_COACH,$coach->coach_id,false,false).'&amp;subsec=teams';?>"><?php echo $lng->getTrn('cc/coach_teams');?></a></li>
 				<li><a rel="nofollow" href="<?php echo urlcompile(T_URL_PROFILE,T_OBJ_COACH,$coach->coach_id,false,false).'&amp;subsec=profile';?>"><?php echo $lng->getTrn('cc/profile');?></a></li>
 				<li><a rel="nofollow" href="<?php echo urlcompile(T_URL_PROFILE,T_OBJ_COACH,$coach->coach_id,false,false).'&amp;subsec=stats';?>"><?php echo $lng->getTrn('common/stats');?></a></li>
