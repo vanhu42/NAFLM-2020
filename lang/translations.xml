@@ -174,6 +174,9 @@ For example, english is in <en-GB>, french in <fr-FR>, .......
     <cc>Coach corner</cc>
     <teams>Teams</teams>
     <coaches>Coaches</coaches>
+    <user_menu>User menu</user_menu>
+    <league_menu>League Menu</league_menu>
+    <league_history>League History</league_history>
     <matches_menu>
         <name>Matches</name>
         <tours>Tournaments</tours>
@@ -2865,6 +2868,9 @@ For example, english is in <en-GB>, french in <fr-FR>, .......
     <cc>Coin du Coach</cc>
     <teams>Équipes</teams>
     <coaches>Coachs</coaches>
+    <user_menu>Menu utilisateur</user_menu>
+    <league_menu>Menu de la ligue</league_menu>
+    <league_history>Historique de la Ligue</league_history>
     <matches_menu>
         <name>Matchs</name>
         <tours>Tournois</tours>

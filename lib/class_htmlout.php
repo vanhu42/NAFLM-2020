@@ -1006,7 +1006,7 @@ class HTMLOUT
 		if (isset($_SESSION['logged_in'])) {
 		?>
 
-		<li class="topfirst"><a href="#">User Menu</a>
+		<li class="topfirst"><a href="#"><?php echo $lng->getTrn('menu/user_menu');?></a>
 			<ul>
 				<li class="subfirst"><a href="handler.php?type=teamcreator"><?php echo $lng->getTrn('cc/create_team');?></a></li>
 				<li><a href="index.php?section=matches&amp;type=usersched" ><?php echo $lng->getTrn('cc/schedule_match');?></a></li>
@@ -1048,7 +1048,7 @@ class HTMLOUT
 		} ?>        
 
 	<li class="topmenu">
-		<a href="#">League Menu</a>
+		<a href="#"><?php echo $lng->getTrn('menu/league_menu');?></a>
 		<ul>
 			<li class="subfirst"><a href="index.php?section=rules"><?php echo $lng->getTrn('menu/rules');?></a></li>
 			<li><a href="handler.php?type=leaguetables"><?php echo $lng->getTrn('name', 'LeagueTables');?></a></li>
@@ -1067,7 +1067,7 @@ class HTMLOUT
 		</ul>
 	</li>
 			
-	<li class="topmenu"><a rel="nofollow" href="#">League History</a>
+	<li class="topmenu"><a rel="nofollow" href="#"><?php echo $lng->getTrn('menu/league_history');?></a>
 		<ul>   
 			<?php if (Module::isRegistered('Gallery'))        { ?><li><a href="handler.php?type=gallery"><?php echo $lng->getTrn('name', 'Gallery');?></a></li><?php } ?>
 			<?php if (Module::isRegistered('Wanted'))        { ?><li><a href="handler.php?type=wanted"><?php echo $lng->getTrn('name', 'Wanted');?></a></li><?php } ?>
@@ -1079,7 +1079,7 @@ class HTMLOUT
 		</ul>
 	</li>
 			
-	<li class="topmenu"><a rel="nofollow" href="#">Statistics</a>
+	<li class="topmenu"><a rel="nofollow" href="#"><?php echo $lng->getTrn('menu/statistics_menu/name');?></a>
 		<ul>
 			<li class="subfirst"><a rel="nofollow" href="<?php echo urlcompile(T_URL_STANDINGS,T_OBJ_TEAM,false,false,false);?>"><?php echo $lng->getTrn('menu/statistics_menu/team_stn');?></a></li>
 			<li><a rel="nofollow" href="<?php echo urlcompile(T_URL_STANDINGS,T_OBJ_PLAYER,false,false,false);?>"><?php echo $lng->getTrn('menu/statistics_menu/player_stn');?></a></li>
